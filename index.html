@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <!--Assets-->
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  </head>
+  <body>
+    <!-- Content -->
+    <div id="content">
+      <div class="yalan">
+        <h2>YALAN</h2>
+        <p contenteditable="true">
+          EĞLENMEK İSTEDİĞİNİZ SÖYLEMİ TIRNAK İÇİNDE YAZIN
+        </p>
+        <span class="icon">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAACnUlEQVR4nO2avW4TQRSFv7VHrpDijQQKD0CewJWLFEhU7lMQhJQKWsgL5AES/AgRUoiQqShSRTQuXKUFieQhYgmJn2gSU3gjpVj7zoxnZhEzp3GxVzvnfPLuzt69kJWVlZWVlZWqCpOifVAbir0CngNPgIsCjrua4TbcBHUoaATtK8VbYAfYBC5ncLKuOTDxJgLYB/VY8QXYqjk86WgGuzC1Ne5DR9C9VpwC/ZrD41LzVILQkhbZUOxRHx6gf604O4KubNevqvBn1IcH2Lqae18qEUD1t1+mXmwI98L3hFLJuwyA+TUvKRoEi/AwvycslQmAC4MaiADBMjzAd6nABMAHw8UgIASH8BQG3kUApeYdMDFdlAAQXMIDk65mKBWJALbhpqMZAOcWi3uD4Bj+vKMZeNkHeDDyzHWfEGNNYwCxDMVeywpALGMxQVsDgLAGY19qTgAgjNEm7jPOAMCv4SbCw4oAwI/xpsKDBwCwWgCApsKDJwDgDqH6bSQ8eAQAzhBs5DU8eAYAQSF4Dw8BAEAQCEHCQyAA4BVCsPAQEAB4gRA0PAQGACtBCB4ezDpC/7XyJRDqxEnfBJN+DCa9EUp6K5z0y1DSr8NJN0SSbokl3RRNui2e9IeRpD+NJf1xtMnHVOi1xX7ACNrVKFojG5VdmFYbJtv5hNMRtKVCEUA1hLhoFK1O3vfrjhD6U8UbqcikI7RjsWiw11YXCDNPY3LiqFml4N0bBwjiiJ8JgEuDmigNTLCGIHoXAczgRCiJFv5OFhA+SucSAaxrDoDxgsOT2OHvdA/CohG+cak5lM4jPiY+wax3y/GDFj8LeAisAV8LOCw1r17ALzvr/vQZfr+85f2fFj+AR5W3b8Cw1LxuepQ/KysrKysr69/WX4FovTPZy/4wAAAAAElFTkSuQmCC"
+          />
+        </span>
+      </div>
+      <div class="dogru">
+        <h2>DOĞRU</h2>
+        <p contenteditable="true">
+          VERMEK İSTEDİĞİNİZ MESAJI BURAYA RAHATLIKLA YAZABİLİRSİNİZ
+        </p>
+        <span class="icon">
+          <img
+            src="data:image/png;base64,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"
+          />
+        </span>
+      </div>
+    </div>
+
+    <!-- Process Button -->
+    <p>Düzenlemek için yazının üzerine tıklayın.</p>
+    <a href="#" id="download">JPG İndir</a>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+      #content {
+        display: flex;
+        margin-bottom: 1rem;
+        min-width: 640px;
+      }
+      .yalan,
+      .dogru {
+        padding: 3rem 2rem;
+        text-align: center;
+        font-weight: bold;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: #fff;
+        font-size: 30px;
+        min-height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .yalan p,
+      .dogru p {
+        line-height: 1.4;
+        text-shadow: 1px 1px 0px #000000;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+      }
+      h2 {
+        background: #fff;
+        display: inline-block;
+        padding: 0.2rem 0.4rem;
+        margin: 0 0 2rem 0;
+      }
+      .yalan {
+        background: #990400;
+        width: 35%;
+      }
+      .yalan h2 {
+        color: #820502;
+      }
+      .dogru {
+        background: #2f8e00;
+        width: 65%;
+      }
+      .dogru h2 {
+        color: #287501;
+      }
+      .icon {
+        height: 3rem;
+        width: 3rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+      }
+      .icon img {
+        background: #fff;
+        border-radius: 50%;
+        padding: 0.3rem;
+        height: 100%;
+        width: 100%;
+      }
+      .danger {
+        fill: #990400;
+      }
+      .success {
+        fill: #2f8e00;
+      }
+      #download {
+        display: inline-block;
+        margin-top: 1rem;
+        border: none;
+        padding: 0.6rem 1rem;
+        background: #2f8e00;
+        border-radius: 0.25rem;
+        text-decoration: none;
+        color: #fff;
+      }
+    </style>
+
+    <script>
+      document
+        .getElementById("download")
+        .addEventListener("click", function(event) {
+          var content = document.getElementById("content");
+          var getCanvas;
+
+          html2canvas(content).then(function(canvas) {
+            var link = document.createElement("a");
+            link.href = canvas.toDataURL("image/png");
+            link.download = "image.png";
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+          });
+        });
+    </script>
+  </body>
+</html>
